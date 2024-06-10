@@ -1,0 +1,470 @@
+/* importamos la fuente */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c';
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f6fafc;
+}
+
+/* SECCION I N I C I O */
+.inicio{
+    background:linear-gradient(to right, #db0030, #004d98);
+    clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%);
+    height: 130vh;
+    padding:  0 20px;
+}
+.inicio .contenido{
+    max-width: 1100px;
+    margin: auto;
+    color: #fff;
+}
+.inicio header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.inicio .logo{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to right, #db0030, #004d98);
+    color: #9bd2f4;
+    font-size: 25px;
+}
+.inicio .logo i{
+    display: inline-block;
+    margin-right: 20px;
+}
+#inicio header nav a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}    
+    .inicio .redes {
+        text-align: center; /* Centrar horizontalmente los enlaces */
+    }
+    
+    .inicio .redes a {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        margin: 10px 5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px; /* Ajustado a la altura del círculo */
+        border: 1px solid #fff;
+        border-radius: 50%; /* Hacer un círculo */
+        font-size: 20px;
+        transition: .3s;
+        background-color: #4800ff;
+    }
+    
+    .inicio .redes a:hover {
+        color: #db0030;
+    }
+    
+.inicio .fila{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+.inicio .fila .col{
+    width: 100%;
+}
+.inicio .fila .col h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.inicio .fila .col p{
+    margin-bottom: 10px;
+}
+
+.inicio .fila .col .contenedor-img{
+    max-width: 300px;
+    margin: auto;
+}
+.inicio .fila .col .contenedor-img img{
+    width: 100%;
+}
+.inicio .fila .col button{
+    background: none;
+    width: fit-content;
+    padding: 5px 40px;
+    border: 2px solid #ddd4d4;
+    color: #080303;
+    background:linear-gradient(to right, #81c9fa, #0CB7F2);
+    transition: .5s;
+    cursor: pointer;
+    margin-top: 200px; /* Puedes ajustar este valor según sea necesario */
+    align-items: center;
+}
+/* imagen  */
+.contenedor-img {
+    width: 400px; /* ajusta el tamaño según tus necesidades */
+    height: 200px; /* ajusta el tamaño según tus necesidades */
+    overflow: hidden;
+    border-radius: 100%; /* esto hace que la imagen sea redonda */
+    margin: 0 auto; /* esto centra la imagen */
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.inicio .fila .col button:hover{
+    transform: scale(1.1);
+}
+#icono-nav{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    display: none;
+}
+#icono-nav:hover{
+    background-color: #3e3e3e;
+}
+.sombra{
+    filter:drop-shadow(0em 30px 20px #9bd2f4);
+}
+
+/* seccion HABILIDADES */
+.habilidades{
+    background:linear-gradient(to right, #db0030, #004d98);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+    top: -100px;
+}
+.habilidades h2{
+    text-align: center;
+}
+.habilidades .contenedor-habi{
+    max-width: 1100px;
+    margin: auto;
+}
+.habilidades .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    padding: 10px;
+    margin: auto 0;
+}
+.score .box{
+    width: 100%;
+}
+.score .box h2{
+    display: block;
+    text-align: center;
+}
+.score .box .chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Esta clase se genera dinámicamente por la librera para graficos */
+.score .box canvas{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+/* Estilos para la sección de trabajos */
+.trabajos {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.trabajos h2 {
+    text-align: center;
+}
+.trabajos nav {
+    text-align: center;
+    margin: 30px 0;
+}
+.trabajos nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: #007be5;
+    font-weight: bold;
+    padding: 3px 10px;
+    border: 3px solid transparent;
+}
+.trabajos nav a:hover {
+    border: 3px solid #ff5b00;
+}
+.borde {
+    border: 3px solid #ff5b00 !important;
+}
+.trabajos .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 30px;
+}
+.trabajos .galeria .item {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #8d8d8d;
+    border-radius: 10px;
+    background: #fff;
+}
+.trabajos .galeria .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.trabajos .galeria .item .info {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    opacity: 0;
+    transition: .3s;
+}
+.trabajos .galeria .item .info h3 {
+    color: #000;
+    margin-bottom: 20px;
+}
+.trabajos .galeria .item .info span {
+    color: #8d8d8d;
+    display: inline-block;
+    border: 2px solid #8d8d8d;
+    margin: 0 3px;
+    padding: 0 5px;
+}
+.trabajos .galeria .item .info a {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: #007be5;
+    font-weight: bold;
+}
+.trabajos .galeria .item:hover .info {
+    opacity: 1;
+    top: 0;
+}
+
+/* Estilos para la descripción */
+.descripcion {
+    position: absolute; /* Posiciona la descripción de manera absoluta */
+    bottom: 0; /* Alinea la descripción con la parte inferior */
+    left: 0; /* Alinea la descripción con la parte izquierda */
+    width: 100%; /* Hace que la descripción abarque todo el ancho del contenedor */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para un buen contraste */
+    color: #fff; /* Color del texto blanco para una mejor legibilidad */
+    padding: 15px; /* Añade padding alrededor del texto */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+    border-radius: 0 0 10px 10px; /* Borde redondeado en la parte inferior */
+    transition: opacity 0.3s ease-in-out; /* Transición suave para la visibilidad */
+    opacity: 0; /* Inicialmente oculta la descripción */
+    display: flex;
+    flex-direction: column; /* Permite alinear elementos en columna */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    justify-content: center; /* Centra verticalmente el contenido */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+.descripcion p {
+    margin: 0 0 10px; /* Margen inferior entre párrafos */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    line-height: 1.5; /* Altura de línea para una mejor legibilidad */
+}
+.descripcion strong {
+    color: #ffdd00; /* Color diferente para destacar el texto */
+}
+.trabajos .galeria .item:hover .descripcion {
+    opacity: 1; /* Muestra la descripción cuando se pasa el ratón sobre el contenedor */
+}
+
+/* SECCION CONTACTO */
+.contacto{
+    background:
+        linear-gradient(rgba(0,12,103,1), rgba(0,12,103,.8)),
+        url(img/foto-contacto.png);
+        background-size: cover;
+        color: #fff;
+        margin-top: 100px;
+        padding: 80px 20px;
+}
+
+.contacto .contenedor-contacto {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila {
+    display: flex;
+    justify-content: center; /* Alinea el logo horizontalmente */
+}
+
+.contacto .col {
+    width: 100%;
+    text-align: center; /* Centra el logo horizontalmente */
+}
+
+.contacto .col img {
+    width: 600px; /* Ajusta el tamaño de tu logo según sea necesario */
+}
+
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:1180px){
+    .inicio{
+        clip-path: none;
+    }
+}
+@media screen and (max-width:800px){
+    .redes{
+        display: none;
+    }
+    #nav{
+        display: none;
+    }
+    #nav.responsive{
+        background-color: rgba(0,0,0,.9);
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+    }
+    #nav.responsive a{
+        font-size: 30px;
+    }
+    #icono-nav{
+        display: block;
+    }
+
+    .inicio{
+        height: auto;
+    }
+    .inicio .fila{
+        display: block;
+    }
+    .inicio .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .inicio .fila .col h2{
+        margin-top: 20px;
+    }
+    .inicio .fila .col .contenedor-img{
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .servicios{
+        position: static;
+        padding: 20px;
+    }
+    .servicios .fila{
+        display: block;
+        margin-bottom: 0;
+    }
+    .servicios .fila .col{
+        width: 70%;
+        margin: auto;
+    }
+    .servicios .fila .col .card{
+        margin-bottom: 20px;
+    }
+    .habilidades{
+        position: static;
+    }
+
+    .trabajos nav a{
+        margin: 0 5px;
+    }
+
+    .contacto .fila{
+        display:  block !important;
+    }
+    .contacto .fila .col{
+        text-align: center;
+        width: 100% !important;
+    }
+    .contacto .fila .col .info{
+        float: left;
+        font-size: 12px;
+        width: 25%;
+    }
+}
+
+footer {
+    background:linear-gradient(to right, #db0030, #004d98);
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+/* Estilos para el contenedor del logo y el texto */
+.logo {
+    display: flex; /* Utiliza el modelo de caja flexible para alinear el contenido horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos secundarios */
+}
+
+/* Estilos para el logo */
+.logo img {
+    width: 200px; /* Ancho deseado del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espacio a la derecha del logo para separarlo del texto */
+}
+

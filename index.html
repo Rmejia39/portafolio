@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Alexander Menjía</title>
+</head>
+<body>
+    <!-- Sección INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class=""></i>
+                        <h1 id="title" data-translate="inicio.title">Alexander Mejía</h1>
+                    </div>
+                    <div class="row" id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({
+                                pageLanguage: 'es,en',
+                                includedLanguages: 'es,en',
+                            }, 'google_translate_element');
+                        }
+                    </script>
+                    <script type="text/javascript" center
+                        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                    </script>
+                </footer>
+                    <nav id="nav" class="">
+                        <a href="#inicio" data-translate="inicio.title">Inicio</a>
+                        <a href="#habilidades" data-translate="habilidades.title">Habilidades</a>
+                        <a href="#trabajos" data-translate="trabajos.title">Trabajos</a>
+                        <a href="#contacto" data-translate="contacto.title">Marca Personal</a>
+                    </nav>
+                    </div>
+                    
+
+                    <!-- Icono del menú responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2 id="description" data-translate="inicio.description">Sobre mí</h2>
+                        <p id="about-me" data-translate="inicio.about-me">Soy Alexander Mejía, estudiante avanzado de Ingeniería en Sistemas y Redes Informáticas, con experiencia destacada en programación y redes. Mi habilidad técnica se complementa con una dedicación al aprendizaje continuo y una capacidad innata para abordar desafíos tecnológicos con creatividad y resiliencia. He participado activamente en proyectos de robótica y electrónica, evidenciando competencia técnica y habilidades para la resolución de problemas complejos. Mi enfoque se centra en la optimización de sistemas, respaldado por mi compromiso con la mejora constante y mi habilidad para colaborar efectivamente en equipos multidisciplinarios. Busco contribuir al avance tecnológico en un entorno profesional dinámico, donde la colaboración y la innovación son esenciales.</p>
+                    </div>
+                    <div class="col">
+                        <div class
+                                            <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/Yooo.jpg" alt="">
+                        </div>
+                        <style>
+                           .custom-btn {
+                                background-color: #66c2ff; /* Celeste */
+                                color: #fff; /* Texto blanco */
+                                padding: 10px 20px; /* Espaciado interno */
+                                border: none; /* Sin borde */
+                                border-radius: 5px; /* Bordes redondeados */
+                                cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+                                display: inline-block; /* Permite ajustar la posición */
+                                margin-top: 250px; /* Espacio superior */
+                            }
+                        
+                           .custom-btn:hover {
+                                background-color: #4da6ff; /* Cambia el color al pasar el cursor */
+                            }
+                        </style>
+                        
+                        <a class="custom-btn" href="Currículum (1).pdf" download>Descargar CV</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección habilidades -->
+        <section class="habilidades" id="habilidades">
+            <div class="contenedor-habi">
+                <h2 id="habilidades-title" data-translate="habilidades.title">Habilidades</h2>
+                <div class="fila">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="95">
+                                    95%
+                                </div>
+                                <h2 id="html-css" data-translate="habilidades.html-css">HTML & CSS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="40">
+                                    40%
+                                </div>
+                                <h2 id="bootstrap" data-translate="habilidades.bootstrap">BOOSTRAP</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="65">
+                                    65%
+                                </div>
+                                <h2 id="javascript" data-translate="habilidades.javascript">JAVASCRIPT</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="70">
+                                    70%
+                                </div>
+                                <h2 id="mysql" data-translate="habilidades.mysql">MYSQL</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="50">
+                                    50%
+                                </div>
+                                <h2 id="php" data-translate="habilidades.php">PHP</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="score">
+                            <div class="box">
+                                <div class="chart" data-percent="90">
+                                    90%
+                                </div>
+                                <h2 id="photoshop" data-translate="habilidades.photoshop">PHOTOSHOP</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<<<<<<< HEAD
+      <!-- sección trabajos -->
+<section class="trabajos" id="trabajos">
+    <h2 id="trabajos-title" data-translate="trabajos.title">Mis Trabajos</h2>
+
+    <nav>
+        <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+    </nav>
+
+    <div class="galeria">
+        <div class="item disenio">
+            <h3 id="the-glam-app" data-translate="trabajos.the-glam-app">The Glam App</h3> <!-- Nombre del proyecto fuera del contenedor de la imagen -->
+            <img src="img/belleza.jpg" alt="The Glam App">
+            <div class="info">
+                <div class="descripcion">
+                    <p>The Glam App: Un espacio digital creado por estudiantes para peluquerías, barberías y salones de belleza. Encuentra tu estilo perfecto con facilidad y comodidad. Conecta con expertos en belleza, reserva citas y descubre las últimas tendencias en moda capilar. La aplicación ha sido desarrollada utilizando HTML, CSS, JavaScript, PHP y Hack, garantizando una experiencia de usuario rica y fluida. ¡Transforma tu look y siéntete glamuroso con The Glam App!</p>
+                    <p><strong>Fecha de finalización:</strong> Marzo 2023</p>
+                    <p><strong>Rol:</strong> Desarrollador Frontend</p>
+                    <p><strong>Tiempo de desarrollo:</strong> 3 meses</p>
+                    <a href="https://github.com/Rmejia39/The-Glam-App---copia.git" class="ver-repo">Ver Repositorio</a>
+                </div>
+            </div>
+        </div>
+        <div class="item disenio">
+            <h3 id="collage-reminder" data-translate="trabajos.collage-reminder">Collage Reminder</h3> <!-- Nombre del proyecto fuera del contenedor de la imagen -->
+            <img src="img/Collage Reminder.png" alt="Collage Reminder">
+            <div class="info">
+                <div class="descripcion">
+                    <p>Collage Reminder: Agenda universitaria desarrollada por estudiantes de ingeniería de sistemas y redes informáticas. Organiza actividades, establece recordatorios y maximiza el rendimiento académico. La aplicación está construida utilizando JavaScript, lo que permite una interfaz dinámica y una experiencia de usuario interactiva. Simplifica la vida universitaria y asegura que no se pierdan fechas importantes.</p>
+                    <p><strong>Fecha de finalización:</strong> Junio 2023</p>
+                    <p><strong>Rol:</strong> Desarrollador Backend</p>
+                    <p><strong>Tiempo de desarrollo:</strong> 2 meses</p>
+                    <a href="https://github.com/Rmejia39/Collage__Reminder" class="ver-repo">Ver Repositorio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+        <section class="contacto" id="contacto">
+            <div class="contenedor-contacto">
+                <h2 id="contacto-title" data-translate="contacto.title">Marca Personal</h2>
+                <div class="fila">
+                    <div class="col">
+                        <!-- Aquí colocas solo tu logo -->
+                        <img src="img/Mi logo.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+=======
+        <!-- sección trabajos -->
+        <section class="trabajos" id="trabajos">
+            <h2 id="trabajos-title" data-translate="trabajos.title">Mis Trabajos</h2>
+
+            <nav>
+                <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            </nav>
+
+            <div class="galeria">
+                <div class="item disenio">
+                    <img src="img/belleza.jpg" alt="">
+                    <div class="info">
+                        <h3 id="the-glam-app" data-translate="trabajos.the-glam-app">The Glam App</h3>
+                        <span>html</span><span>css</span><span>javascript</span><span>php</span><span>hack</span>
+                        <a href="https://github.com/Rmejia39/The-Glam-App---copia">Ver Tr</div>
+                </div>
+                <div class="item disenio">
+                    <img src="img/Collage Reminder.png" alt="">
+                    <div class="info">
+                        <h3 id="collage-reminder" data-translate="trabajos.collage-reminder">Collage Reminder</h3>
+                        <span>javascript</span>
+                        <a href="https://github.com/Rmejia39/Collage__Reminder">Ver Trabajo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="contenedor-contacto">
+                <h2 id="contacto-title" data-translate="contacto.title">Marca Personal</h2>
+                <div class="fila">
+                    <div class="col">
+                        <!-- Aquí colocas solo tu logo -->
+                        <img src="img/Mi logo.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+>>>>>>> 7afb54e2cbca1db7d12e06b3a2f21b7ec0fca7ae
+        <!-- footer -->
+        <footer>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/alexander-mejia-3036122b1/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:sortomejia66@gmail.com"><i class="fa-brands fa-envelope"></i></a> 
+                    <a href="https://api.whatsapp.com/send?phone=50370098564"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/Rmejia39"><i class="fa-brands fa-github"></i></a> 
+                </div>
+            </div>
+            <div class="contenedor-footer">
+                <div class="redes">
+                </div>
+                <p class="copy">© 2024 Alexander Menjía. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>

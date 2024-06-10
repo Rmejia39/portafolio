@@ -1,0 +1,42 @@
+{
+    "inicio": {
+      "es": {
+        "title": "Inicio",
+        "description": "Soy Alexander Mejía, estudiante avanzado de Ingeniería en Sistemas y Redes Informáticas, con experiencia destacada en programación y redes. Mi habilidad técnica se complementa con una dedicación al aprendizaje continuo y una capacidad innata para abordar desafíos tecnológicos con creatividad y resiliencia. He participado activamente en proyectos de robótica y electrónica, evidenciando competencia técnica y habilidades para la resolución de problemas complejos. Mi enfoque se centra en la optimización de sistemas, respaldado por mi compromiso con la mejora constante y mi habilidad para colaborar efectivamente en equipos multidisciplinarios. Busco contribuir al avance tecnológico en un entorno profesional dinámico, donde la colaboración y la innovación son esenciales."
+      },
+      "en": {
+        "title": "Home",
+        "description": "I'm Alexander Mejía, advanced student of Systems and Networks Engineering, with outstanding experience in programming and networks. My technical skill is complemented by a dedication to continuous learning and an innate ability to tackle technological challenges with creativity and resilience. I have actively participated in robotics and electronics projects, demonstrating technical competence and problem-solving skills. My focus is on system optimization, backed by my commitment to constant improvement and my ability to collaborate effectively in multidisciplinary teams. I seek to contribute to technological advancement in a dynamic professional environment, where collaboration and innovation are essential."
+      }
+    },
+    "habilidades": {
+      "es": {
+        "title": "Habilidades",
+        "html_css": "HTML & CSS",
+        "bootstrap": "BOOSTRAP",
+        "javascript": "JAVASCRIPT"
+      },
+      "en": {
+        "title": "Skills",
+        "html_css": "HTML & CSS",
+        "bootstrap": "BOOTSTRAP",
+        "javascript": "JAVASCRIPT"
+      }
+    },
+    "trabajos": {
+      "es": {
+        "title": "Mis Trabajos"
+      },
+      "en": {
+        "title": "My Works"
+      }
+    },
+    "contacto": {
+      "es": {
+        "title": "Marca Personal"
+      },
+      "en": {
+        "title": "Personal Brand"
+      }
+    }
+  }
